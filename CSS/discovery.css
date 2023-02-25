@@ -1,0 +1,652 @@
+#header {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: rgba(163, 162, 162, 0.2);
+    /* background-color: #777; */
+    /* border: 2px solid blue; */
+}
+
+#vediotag {
+    display: flex;
+    width: 100vw;
+    /* background-size:  100% 100%; */
+    object-fit: contain;
+    /* border: 2px solid red; */
+    z-index: -1;
+    position: absolute;
+}
+
+
+#header1 {
+    display: flex;
+    height: 25vh;
+    width: 90vw;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    /* border: 2px solid red; */
+}
+#navlink{
+    display: flex;
+    align-items: center;
+    height: 30%;
+    width: 60%;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* border: 2px solid red;  */
+
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    height: 30%;
+    width: 95%;
+    flex-direction: row;
+    /* border: 2px solid rgb(239, 234, 234); */
+    /* background-color: black; */
+    justify-content: space-around;
+}
+
+#navbock {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    font-family: messina-sans;
+    font-weight: bolder;
+    /* background-color: black; */
+}
+
+
+#gallary {
+    display: flex;
+    height: 22vh;
+    margin-top: 3vw;
+    margin-left: -35vw;
+    font-size: 70px;
+    align-items: start;
+    color: white;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+#Scroll {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20vh;
+    width: 80vw;
+    font-size: 25px;
+    align-items: center;
+    color: hsla(0, 0%, 100%, .65);
+    margin-top: 1vw;
+    /* border: 2px solid rgb(103, 13, 193);
+    background-color: #111; */
+    
+}
+@media screen and (max-width : 480px) {
+    #header1 {
+        display: flex;
+        height: 25vh;
+        width: 90vw;
+    }
+
+    #nav {
+        display: none;
+    }
+    #gallary {
+        display: flex;
+        height: 22vh;
+        font-size: 30px;
+    }
+    #Scroll {
+        display: flex;
+        height: 15vh;
+        width: 80vw;
+        font-size: 20px;
+    }
+  
+}
+
+@media screen and (min-width : 480px) and (max-width : 768px) {
+    #header1 {
+        display: flex;
+        height: 25vh;
+        width: 90vw;
+    }
+
+    #navlink {
+        display: flex;
+        width: 80%;
+    }
+
+    #nav {
+        display: flex;
+        width: 95%;
+        /* border: 2px solid rgb(23, 222, 66);  */
+    }
+    #gallary {
+        display: flex;
+        height: 22vh;
+        font-size: 45px;
+    }
+    #Scroll {
+        display: flex;
+        height: 15vh;
+        width: 80vw;
+        font-size: 20px;
+    }
+}
+
+
+
+#box2-2 {
+    display: flex;
+    height: 170vh;
+    width: 100vw;
+    /* background-color: rgb(82, 224, 148); */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#image {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    /* border: 2px solid red; */
+    z-index: -1;
+    position: absolute;
+}
+
+#box2-2-2 {
+    display: flex;
+    height: 150vh;
+    width: 90vw;
+    /* background-color: rgb(234, 75, 7); */
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+
+#box2-2-2-1 {
+    display: flex;
+    height: 120vh;
+    width: 35vw;
+    /* background-color: rgb(227, 202, 192); */
+}
+
+#box2-2-2-2 {
+    display: flex;
+    height: 150vh;
+    width: 35vw;
+    /* background-color: rgb(66, 65, 65); */
+    flex-direction: column;
+
+
+}
+
+#box2-2-2-2-1 {
+    display: flex;
+    height: 60%;
+    /* width: 100%;
+    background-color: rgb(19, 218, 82); */
+    flex-direction: column;
+
+}
+
+#box2-2-2-2-1title {
+    display: flex;
+    height: 30%;
+    /* background-color: rgb(26, 19, 218); */
+    font-family: gt-sectra;
+    font-weight: 200;
+    font-size: 40px;
+    align-items: end;
+}
+
+#box2-2-2-2-1content {
+    display: flex;
+    height: 50%;
+    /* background-color: rgb(109, 107, 155); */
+    font-family: gt-sectra;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.5;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#box2-2-2-2-2 {
+    display: flex;
+    height: 31%;
+    width: 100%;
+    /* background-color: rgb(48, 28, 200); */
+}
+
+@media screen and (min-width : 480px) and (max-width : 768px) {
+    #box2-2 {
+        display: flex;
+        height: 300vh;
+        width: 100vw;
+        flex-direction: column;
+    }
+    #image {
+        display: none;
+    }
+    #box2-2-2 {
+        display: flex;
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #box2-2-2-2 {
+        display: flex;
+        height: 200vh;
+        width: 90%;
+    }
+    #box2-2-2-1 {
+        display: flex;
+        height:auto;
+        width:100%;
+    }
+    #box2-2-2-2 {
+        display: flex;
+        height: auto;
+        width: 80%;
+    }
+    #box2-2-2-2-1 {
+        display: flex;
+        height: 70vh;
+        width: 100%;
+    }
+    #box2-2-2-2-2 {
+        height: 130vh;
+        width: 100%;
+    }
+
+} 
+
+
+
+
+
+#box {
+    display: flex;
+    height: 200vh;
+    width: 100vw;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#landofdiscovery {
+    display: flex;
+    height: 25%;
+    width: 80%;
+    /* background-color: aqua; */
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#landofdiscoverytitle {
+    display: flex;
+    font-family: gt-sectra;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+
+#landofdiscoverycontent {
+    display: flex;
+    font-family: gt-sectra;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+#lowercontainer {
+    display: flex;
+    height: 65%;
+    width: 100%;
+    /* background-color: rgb(13, 31, 31); */
+    flex-direction: column;
+}
+
+#earth {
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    width: 60%;
+}
+
+
+#rightcon {
+    display: flex;
+    z-index: 2;
+    height: 90vh;
+    position: relative;
+    left: 50%;
+    width: 50%;
+    /* background-color: rgb(214, 15, 15); */
+}
+
+#right-left {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    /* background-color: rgb(14, 220, 220); */
+}
+
+
+
+@media screen and (min-width : 480px) and (max-width : 768px) {
+
+    #landofdiscovery {
+        display: flex;
+        height: 20%;
+        width: 80%;
+        /* background-color: violet; */
+        justify-content: center;
+    }
+
+    #landofdiscoverytitle {
+        display: flex;
+        font-size: 40px;
+        height: 35%;
+    }
+
+    #earth {
+        display: flex;
+        height: 120%;
+        width: 102.5%;
+        background-size: 100% 10%;
+        object-fit: cover;
+        /* background-color: yellow; */
+    }
+
+    #rightcon {
+        display: none;
+    }
+
+    #choose {
+        display: flex;
+        height: 10%;
+        width: 90%;
+        z-index: 3;
+        position: absolute;
+        top : 178%;
+        left: 10%;
+        justify-content: space-between;
+        border-radius: 5px;
+        align-items: center;
+        font-size: 120%;
+        font-weight: 1000;
+        background-color: white;
+    }
+}
+
+#lastbox3image {
+    display: flex;
+    height: 100vh;
+    width: 99vw;
+    /* background-color: cornflowerblue; */
+}
+
+
+#boximage {
+    display: flex;
+    height: 100vh;
+    width: 33vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: blue; */
+
+}
+
+#picture {
+    display: flex;
+    height: 100vh;
+    width: 33vw;
+    z-index: -1;
+    position: absolute;
+    /* background-color: rgba(142, 141, 141, .5); */
+    /* background-color: aqua; */
+}
+
+#experience {
+    display: flex;
+    height: 10vh;
+    width: 15vw;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+
+}
+
+#arrowicon {
+    display: flex;
+    height: 15vh;
+    width: 8vw;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width : 481px) and (max-width : 768px) {
+    #lastbox3image {
+        width: 100vw;
+        height: 99vh;
+        flex-direction: column;
+    }
+
+    #boximage {
+        height: 33vh;
+        width: 100vw;
+        position: relative;
+        /* background-color: tomato; */
+    }
+
+    #picture {
+        display: flex;
+        position: absolute;
+        object-fit: cover;
+        width: 100vw;
+        height: 33vh;
+        
+        /* background-color: turquoise; */
+    }
+
+    #experience {
+        display: flex;
+        height: 25%;
+        width: 30%;
+        position: relative;
+        z-index: 5;
+        /* background-color: violet; */
+    }
+
+    #arrowicon {
+        display: flex;
+        position: relative;
+        z-index: 5;
+        /* background-color: turqu` */
+    }
+}
+
+#footer {
+    display: flex;
+    background-color: #161f1e;
+    width: 100vw;
+    height: 70vh;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#footer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40%;
+    width: 90vw;
+    font-family: messina-sans;
+    font-weight: bolder;
+    /* border: 2px solid white; */
+}
+
+#logo {
+    height: 35%;
+}
+
+#footer2 {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    height: 90%;
+    /* border: 2px solid rgb(96, 22, 22); */
+}
+
+#Get {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 60%;
+    justify-content: space-between;
+    /* border: 2px solid rgb(135, 12, 243); */
+}
+
+#aboutMag {
+    display: flex;
+    width: 43%;
+    height: 100%;
+    flex-direction: row;
+}
+
+#AboutDLC {
+    display: flex;
+    /* border: 2px solid rgb(119, 201, 11); */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+
+#copyright {
+    display: flex;
+    height: 10%;
+    width: 90%;
+    justify-content: flex-start;
+    color: #777;
+}
+
+
+@media screen and (min-width : 320px) and (max-width : 480px) {
+    #footer {
+        display: flex;
+        height: 90vh;
+        width: 100vw;
+        /* background-color: aqua; */
+        /* border: 2px solid white; */
+    }
+
+    #footer1 {
+        display: flex;
+        height: 85%;
+        width: 85%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* border: 2px solid white; */
+    }
+
+    #footer2 {
+        display: flex;
+        height: auto;
+        width: 90vw;
+        flex-direction: column;
+    }
+
+    #logo {
+        width: 10vw;
+        height: 10vh;
+    }
+
+    #Get {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        justify-content: space-evenly;
+        font-size: large;
+        width: 90vw;
+    }
+
+    #aboutMag {
+        display: flex;
+        height: 40vh;
+        width: 90vw;
+    }
+
+    #AboutDLC {
+        display: flex;
+        height: 40vh;
+        width: 75vw;
+        /* border:2px solid aqua; */
+        font-size: large;
+        justify-content: space-evenly;
+    }
+
+    #copyright {
+        display: flex;
+        height: 10%;
+        width: 85vw;
+        justify-content: flex-start;
+        color: #777;
+        /* border: 2px solid red;  */
+        font-size: large;
+    }
+}
+
+@media screen and (min-width : 481px) and (max-width : 768px) {
+    #footer2 {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        height: 90%;
+        /* background-color: chartreuse; */
+    }
+
+    #Get {
+        display: flex;
+        height: 10vh;
+        width: 35%;
+    }
+
+    #aboutMag {
+        display: flex;
+        height: auto;
+        width: 45%;
+    }
+}
